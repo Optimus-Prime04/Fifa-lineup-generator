@@ -12,10 +12,13 @@ Currently i have added:
 soon i will work to get more formations
 
 ## 📸 Preview
+<img width="1252" height="581" alt="Image" src="https://github.com/user-attachments/assets/987833e8-4ea3-48a8-a285-032bfadea9c1" />
 
+<img width="1239" height="580" alt="Image" src="https://github.com/user-attachments/assets/7928675e-c26b-4f5c-b8b5-d935bab4bcbb" />
 
+<img width="1280" height="579" alt="Image" src="https://github.com/user-attachments/assets/157f9d83-16c2-4d20-8236-9e9a5532390c" />
 
-
+<img width="1251" height="562" alt="Image" src="https://github.com/user-attachments/assets/16937052-9d25-4a02-9d86-9e5d76c8b22a" />
 
 ## i have built this with
 - HTML
