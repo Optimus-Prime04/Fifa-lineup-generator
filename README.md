@@ -1,2 +1,38 @@
 # Fifa-lineup-generator
 I am a website in which u can create custom football lineups with 4-3-3 and 4-4-2 formations, player names, jersey numbers, team details and export as PNG: )
+
+## Live Website
+
+https://fifa-lineup-generator.vercel.app/
+
+## formation types
+Currently i have added:
+- 4-3-3
+- 4-4-2
+soon i will work to get more formations
+
+## 📸 Preview
+
+
+
+
+
+## i have built this with
+- HTML
+- CSS
+- JavaScript
+- html2canvas
+- GitHub
+- Vercel
+
+## About This Project and AI declaration 
+I've been involved with the school football team , but creating our lineup has been a nightmare. When I tried using ai tools like chatgpt but it cant create my lineup as i wish or i will run out of token :( so i create this project.   
+
+My project is simple. It includes a front‑end UI page, squad creation, and a current World Cup squad example hosted on my website. The World Cup squad is not official it's based on my personal opinion:)  
+
+The hardest part was designing the formation background graphics, I used an AI‑generated image for that. The most irritating tasks were styling, positioning, debugging, and arranging positions all done through trial and error.
+
+
+## Developer
+
+Made by Aadhithya 🚀
