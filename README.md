@@ -38,4 +38,4 @@ The hardest part was designing the formation background graphics, I used an AIâ€
 
 ## Developer
 
-Made by Aadhithya ğŸš€
+Made by Aadhithya 
