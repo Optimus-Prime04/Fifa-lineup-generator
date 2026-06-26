@@ -31,7 +31,7 @@ soon i will work to get more formations
 ## About This Project and AI declaration 
 I've been involved with the school football team , but creating our lineup has been a nightmare. When I tried using ai tools like chatgpt but it cant create my lineup as i wish or i will run out of token :( so i create this project.   
 
-My project is simple. It includes a front‑end UI page, squad creation, and a current World Cup squad example hosted on my website. The World Cup squad is not official it's based on my personal opinion:)  
+My project is simple. It includes a front‑end UI page, squad creation, and a current World Cup squad example hosted on my website The World Cup squad is not official it's based on my personal opinion:)  
 
 The hardest part was designing the formation background graphics, I used an AI‑generated image for that. The most irritating tasks were styling, positioning, debugging, and arranging positions all done through trial and error.
 
