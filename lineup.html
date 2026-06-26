@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FIFA LINEUP GENERATOR</title>
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="input-section">
+            <h1>FIFA LINEUP GENERATOR</h1>
+            <h2>TEAM DETAILS</h2>
+            <input type="text"
+                id="teamName"
+                placeholder="TEAM NAME">
+            <select id="formation">
+                <option value="433">
+                  4-3-3
+                </option>
+                <option value="442">
+                  4-4-2
+                </option>
+            </select>
+            <h2>Captain</h2>
+            <select id="captain">
+              <option value="1">GK</option>
+              <option value="2">LB</option>
+              <option value="3">CB</option>
+              <option value="4">CB</option>
+              <option value="5">RB</option>
+              <option value="6">CM</option>
+              <option value="7">CM</option>
+              <option value="8">CM</option>
+              <option value="9">LW</option>
+              <option value="10">ST</option>
+              <option value="11">RW</option>
+            </select>
+            <h2>Optional Details</h2>
+            <input type="text"
+                id="coachName"
+                placeholder="COACH NAME">
+            <input type="text"
+                id="competition"
+                placeholder="Competition">
+            <input type="date"
+                id="matchDate">
+            
+            
+            
+            <h2>Players</h2>
+            <h3>Goalkeeper</h3>
+            <input type="text"
+              id="player1Name"
+              placeholder="Goalkeeper Name">
+            <input type="number"
+              id="player1Number"
+              placeholder="Jersey number">
+            <input type="number"
+            id="player1OVR"
+            placeholder="OVR">     
+            <h3>Left Back</h3>
+            <input type="text"
+              id="player2Name"
+              placeholder="left Back Name">
+            <input type="number"
+              id="player2Number"
+              placeholder="Jersey Number">
+            <input type="number"
+            id="player2OVR"
+            placeholder="OVR">
+       
+            <h3>Centre Back</h3>
+            <input type="text"
+              id="player3Name"
+              placeholder="Centre Back Name">
+            <input type="number"
+              id="player3Number"
+               placeholder="Jersey Number">
+            <input type="number"
+              id="player3OVR"
+              placeholder="OVR">
+            <h3>Centre Back</h3>
+            <input type="text"
+             id="player4Name"
+            placeholder="Centre Back Name">
+            <input type="number"
+            id="player4Number"
+            placeholder="Jersey Number">
+            <input type="number"
+            id="player4OVR"
+            placeholder="OVR">
+
+                   
+            <h3>Right Back</h3>
+            <input type="text"
+              id="player5Name"
+              placeholder="Right Back Name">
+            <input type="number"
+              id="player5Number"
+              placeholder="Jersey Number">
+            <input type="number"
+            id="player5OVR"
+            placeholder="OVR">
+
+            <h3>Midfielder</h3>
+            <input type="text"
+              id="player6Name"
+              placeholder="Midfielder Name">
+            <input type="number"
+            id="player6Number"
+            placeholder="Jersey Number">
+            <input type="number"
+            id="player6OVR"
+            placeholder="OVR">    
+                   
+             
+            <h3>Midfielder</h3>
+            <input type="text"
+                   id="player7Name"
+                   placeholder="Midfielder Name">
+            <input type="number"
+                   id="player7Number"
+                   placeholder="Jersey Number">
+             <input type="number"
+             id="player7OVR"
+             placeholder="OVR">
+            <h3>Midfielder</h3>
+            <input type="text"
+                   id="player8Name"
+                   placeholder="Midfielder Name">
+            <input type="number"
+                   id="player8Number"
+                   placeholder="Jersey Number">
+            <input type="number"
+            id="player8OVR"
+            placeholder="OVR"> 
+              <h3>Left Wing</h3>
+              <input type="text"
+                     id="player9Name"
+                     placeholder="Left Wing Name">
+              <input type="number"
+                     id="player9Number"
+                     placeholder="Jersey Number">
+             <input type="number"
+             id="player9OVR"
+             placeholder="OVR">       
+                     
+                  
+              <h3>Striker</h3>
+              <input type="text"
+                     id="player10Name"
+                     placeholder="Striker Name">
+              <input type="number"
+                     id="player10Number"
+                     placeholder="Jersey Number">
+             <input type="number"
+             id="player10OVR" 
+             placeholder="OVR">         
+                    
+              <h3>Right Wing</h3>
+              <input type="text"
+                     id="player11Name"
+                     placeholder="Right Wing Name">
+              <input type="number"
+                     id="player11Number"
+                     placeholder="Jersey Number">
+             <input type="number"
+             id="player11OVR"
+             placeholder="OVR">
+              
+                     
+
+              <button onclick="generateLineup()">
+                Generate Lineup
+              </button>
+              <button onclick="downloadLineup()">
+                     Download Lineup
+              </button>
+
+              
+
+        </div>    
+        
+        <div class="preview-section">
+              <div class="pitch-container"
+                    id="lineupArea">
+              <img src="assets/4-3-3.png"
+                   id="pitchImage"
+                   alt="Football Pitch">
+              <h2 id="teamTitle">
+                     Team Name
+              </h2>
+
+              <p id="coachDisplay">
+                     Coach
+              </p>
+
+              <p id="competitionDisplay">
+                     Competition
+              </p>
+
+              <p id="dateDisplay">
+                     Date
+              </p>
+              
+             <div id="teamOVRCard">
+              <img src="assets/ovr-card.png" id="ovrImage">
+              <div id="teamOVRNumber">
+                     0
+              </div>
+             </div>
+             <p id="dateDisplay">Date</p>
+
+              <div id="player1" class="player">1</div>
+              <div id="player2" class="player">2</div>
+              <div id="player3" class="player">3</div>
+              <div id="player4" class="player">4</div>
+              <div id="player5" class="player">5</div>
+              <div id="player6" class="player">6</div>
+              <div id="player7" class="player">7</div>
+              <div id="player8" class="player">8</div>
+              <div id="player9" class="player">9</div>
+              <div id="player10" class="player">10</div>
+              <div id="player11" class="player">11</div>
+
+                          
+
+
+
+              
+       </div>     
+
+
+
+
+
+
+
+          
+
+
+</div>
+
+ <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>     
+ <script src="script.js"></script>
+       </body>      
+</html>

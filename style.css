@@ -1,0 +1,253 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    background-color:#111;
+    font-family:Arial,sans-serif;
+
+} 
+.main-container {
+    display:flex;
+    flex-direction:row;
+    min-height:100vh;
+}
+.input-section {
+    height:100vh;
+    width:25%;
+    padding:20px;
+    background-color:#000000;
+    color:rgba(31, 244, 7, 0.66);
+    overflow-y:auto;
+}
+.input-section h1 {
+    margin-bottom:20px;
+    color:rgba(31, 244, 7, 0.66);
+
+}
+
+.input-section h2 {
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.input-section h3 {
+    margin-top:15px;
+    margin-bottom:5px;
+
+}
+
+.input-section input {
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:5px;
+}
+.input-section select {
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:5px;
+
+}
+
+.input-section button {
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:5px;
+    background-color:rgba(31, 244, 7, 0.66);
+    color:black;
+    font-weight:bold;
+    cursor:pointer; 
+}
+
+
+.input-section button:hover {
+    background-color:rgba(31, 244, 7, 0.66);
+
+}
+.preview-section {
+    width:75%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.pitch-container {
+    position:relative;
+
+}
+#pitchImage {
+    width:900px;
+    max-width:100%;
+
+}
+#teamTitle {
+    position:absolute;
+    top:10mm;
+    left:50%;
+    transform:translateX(-50%);
+    color:#060202;
+    font-size:28px;
+}
+
+#coachDisplay {
+    position:absolute;
+    top:0mm;
+    left:45mm;
+    transform:translateX(-50%);
+    color:#ffffff;
+    
+}
+#competitionDisplay {
+    position:absolute;
+    top:0mm;
+    left:178mm;
+    transform:translateX(-50%);
+    color:white; 
+}
+#dateDisplay {
+    position:absolute;
+    top:0mm;
+    left:5mm;
+    transform:translatex(-50%);
+    color:white;
+
+}
+.player {
+    position:absolute;
+    width:12mm;
+    height:12mm;
+    border-radius:50%;
+    background-color:transparent;
+    color: black;
+    font-size:15mm;
+    font-weight:bold;
+    text-align:center;
+    line-height:12mm;
+}
+.player-name {
+    font-size:6mm;
+    display:block;
+    margin-top:5mm;
+}
+#player1 {
+    bottom: 15mm;
+    left:113mm;
+}
+
+
+#player2 {
+    bottom:48mm;
+    left:30mm;
+}
+
+#player3{
+    bottom:48mm;
+    left:81mm;
+}
+#player4 {
+    bottom:48mm;
+    left:144.5mm;
+
+}
+#player5 {
+    bottom:48mm;
+    left:196mm;
+}
+#player6 {
+    bottom:84mm;
+    left:67mm;
+}
+#player7 {
+    bottom:81mm;
+    left:113mm;
+
+
+}
+#player8 {
+    bottom:84mm;
+    left:159mm;
+}
+#player9 {
+    bottom:121mm;
+    left:46mm;
+}
+#player10 {
+    bottom:121mm;
+    left:110mm;
+}
+#player11 {
+    bottom:121mm;
+    left:178mm;
+}
+.formation442 #player1{
+    bottom:13mm;
+    left:113mm;
+}
+.formation442 #player2 {
+    bottom:38mm;
+    left:33.5mm;
+}
+.formation442 #player3{
+    bottom:38mm;
+    left:84mm;
+}
+.formation442 #player4{
+    bottom:38mm;
+    left:142mm;
+}
+.formation442 #player5 {
+    bottom:38mm;
+    left:191mm;
+}
+.formation442 #player6 {
+    bottom:80mm;
+    left:35mm;
+}
+.formation442 #player7 {
+    bottom:80mm;
+    left:84mm;
+}
+.formation442 #player8 {
+    bottom:80mm;
+    left:141.5mm;
+}
+.formation442 #player9 {
+    bottom:80mm;
+    left:191mm;
+}
+.formation442 #player10 {
+    bottom:120mm;
+    left:83mm;
+}
+.formation442 #player11 {
+    bottom:120mm;
+    left:137mm;
+}
+
+#teamOVRCard{
+    position:absolute;
+    top:8mm;
+    right:8mm;
+    width:25mm;
+    height:30;
+}
+#ovrImage{
+    width:100%;
+    height:100%;
+
+}
+#teamOVRNumber{
+    position:absolute;
+    top:48%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size:8mm;
+    font-weight:bold;
+}
+

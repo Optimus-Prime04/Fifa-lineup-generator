@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    font-family:Arial,sans-serif;
+    background:black;
+    overflow-x:hidden;
+}
+.heroVideo{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.55);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+
+}
+.overlay h1{
+    color:white;
+    font-size:clamp(3rem,8vw,7rem);
+    font-weight:900;
+    text-transform:uppercase;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+.overlay p{
+    color:white;
+    font-size:1.4rem;
+    margin-bottom:35px;
+}
+.create-btn{
+    background:#3cd121;
+    color:black;
+    text-decoration:none;
+    font-size:1.1rem;
+    font-weight:bold;
+    padding:18px 45px;
+    border-radius:999px;
+    transition:0.3s;
+}
+.create-btn:hover{
+    transform:scale(1.08);
+}
+.about{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:120px 10%;
+}
+.about h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+.about p{
+    max-width:800px;
+    margin:auto;
+    font-size:1.8;
+
+}
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:14px;
+}
+.worldcup-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 40px;
+    background:white;
+    color:#39ff14;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:50px;
+    font-size:20px;
+}
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15;
+}
