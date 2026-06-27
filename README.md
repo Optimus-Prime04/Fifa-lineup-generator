@@ -33,7 +33,7 @@ I've been involved with the school football team , but creating our lineup has b
 
 My project is simple. It includes a front‑end UI page, squad creation, and a current World Cup squad example hosted on my website The World Cup squad is not official it's based on my personal opinion:)  
 
-The hardest part was designing the formation background graphics, I used an AI‑generated image for that. The most irritating tasks were styling, positioning, debugging, and arranging positions all done through trial and error.
+The hardest part was designing the formation background graphics, I used an AI‑generated image for that. The most irritating part for is was styling, positioning, debugging, and arranging positions:).
 
 
 ## Developer
