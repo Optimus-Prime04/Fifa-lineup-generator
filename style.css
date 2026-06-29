@@ -112,7 +112,7 @@ body {
 #dateDisplay {
     position:absolute;
     top:0mm;
-    left:5mm;
+    left:15mm;
     transform:translatex(-50%);
     color:white;
 
